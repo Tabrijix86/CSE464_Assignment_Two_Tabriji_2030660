@@ -45,9 +45,11 @@ class AddTaskScreen extends StatelessWidget {
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.purple,
+                elevation: 5,
+                
               ),
               child: const Text(
-                'Add',
+                'Add Task',
                 style: TextStyle(
                   color: Colors.white,
                 ),
